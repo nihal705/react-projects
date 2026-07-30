@@ -8,11 +8,13 @@
   "scripts": {
     "dev": "npm run dev --workspaces --if-present",
     "build": "npm run build --workspaces --if-present",
-    "dev:calculator": "npm run dev -w calculator-version-1",
-    "build:calculator": "npm run build -w calculator-version-1"
+    "dev:calculator-v1": "npm run dev -w calculator-version-1",
+    "build:calculator-v1": "npm run build -w calculator-version-1",
+    "dev:todo-v1": "npm run dev -w todo-app-version-1",
+    "build:todo-v1": "npm run build -w todo-app-version-1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-react": "^4.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vite": "^5.4.21"

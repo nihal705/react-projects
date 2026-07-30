@@ -1,0 +1,22 @@
+h1 {
+  font-weight: 800;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.ng-button {
+  min-width: 50px;
+}
+
+.ng-row {
+  margin: 10px 5px;
+}
