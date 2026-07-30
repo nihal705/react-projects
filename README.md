@@ -30,12 +30,11 @@ npm run dev:calculator
 npm run dev:todo-v1
 ```
 
-# Technologies Used
-React 18
+**Technologies Used**
+   - React 18
+   - Vite
+   - CSS
 
-Vite
-
-CSS
 
 React Hooks (useState, useEffect)
 
@@ -96,21 +95,13 @@ Run: npm run dev:project-name
 ### What I Learned
 
 - Building React components
-
 - Managing state with useState
-
 - Side effects with useEffect
-
 - Handling events in React
-
 - Conditional rendering
-
 - Lifting state up
-
 - CSS Modules
-
 - Vite build tool
-
 - Workspaces for multiple projects
 
 ### 🤝 Acknowledgments
