@@ -8,7 +8,7 @@ A collection of React projects built while learning and practicing React concept
 
 | Project | Folder | Run Command |
 |---------|--------|-------------|
-| Calculator | `calculator-version-1` | `npm run dev:calculator` |
+| Calculator | `calculator-version-1` | `npm run dev:calculator-v1` |
 | Todo App V1 | `todo-app-version-1` | `npm run dev:todo-v1` |
 | Todo App V2 | `todo-app-version-2` | `npm run dev:todo-v2` |
 | Bharat Clock | `bharat-clock` | `npm run dev:clock` |
@@ -26,7 +26,7 @@ cd react-projects
 npm install
 
 # Run any project
-npm run dev:calculator
+npm run dev:calculator-v1
 npm run dev:todo-v1
 ```
 
@@ -49,7 +49,7 @@ react-projects/
 │   ├── index.html
 │   ├── package.json
 │   └── vite.config.js
-├── todo-app-version-1/            # Todo app (coming soon)
+├── todo-app-version-1/            # Todo app version-1
 ├── package.json                   # Root: manages all projects
 ├── package-lock.json
 ├── .gitignore
