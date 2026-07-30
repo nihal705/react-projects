@@ -1,0 +1,20 @@
+{
+  "name": "react-projects",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "dev:calculator": "npm run dev -w calculator-version-1",
+    "build:calculator": "npm run build -w calculator-version-1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^5.4.21"
+  }
+}
