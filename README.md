@@ -8,10 +8,12 @@ A collection of React projects built while learning and practicing React concept
 
 | Project | Folder | Run Command |
 |---------|--------|-------------|
-| Calculator | `calculator-version-1` | `npm run dev:calculator-v1` |
+| Calculator-v1 | `calculator-version-1` | `npm run dev:calculator-v1` |
+| Calculator-v2 | `calculator-version-2` | `npm run dev:calculator-v2` |
+| Healthy Food List | `healthy-food-list` | `npm run dev:healthy-food-list` |
 | Todo App V1 | `todo-app-version-1` | `npm run dev:todo-v1` |
 | Todo App V2 | `todo-app-version-2` | `npm run dev:todo-v2` |
-| Bharat Clock | `bharat-clock` | `npm run dev:clock` |
+| Bharat Clock | `bharat-clock` | `npm run dev:bharat-clock` |
 
 ---
 
@@ -24,24 +26,29 @@ cd react-projects
 
 # Install dependencies (once for all projects)
 npm install
+npm install @vitejs/plugin-react --save-dev
+npm install vite --save-dev
+npm install react react-dom
+npm i bootstrap@5.3.8 --install-latest-version
+
 
 # Run any project
 npm run dev:calculator-v1
 npm run dev:todo-v1
+npm run dev:todo-v2
+npm run dev:bharat-clock
 ```
 
 **Technologies Used**
    - React 18
    - Vite
    - CSS
-
-
-React Hooks (useState, useEffect)
+   - React Hooks (useState, useEffect)
 
 📁 Project Structure
 ```bash
 react-projects/
-├── calculator-version-1/          # Calculator app
+├── calculator-version-1/          # Calculator app only UI
 │   ├── src/
 │   │   ├── App.jsx
 │   │   ├── App.css
@@ -49,7 +56,11 @@ react-projects/
 │   ├── index.html
 │   ├── package.json
 │   └── vite.config.js
+├── calculator-version-2/          # Calculator app with functionality
+├── bharat-clock/                  # Bharat Clock
+├── healthy-food-list/             # Healthy Food List 
 ├── todo-app-version-1/            # Todo app version-1
+├── todo-app-version-2/            # Todo app version-2
 ├── package.json                   # Root: manages all projects
 ├── package-lock.json
 ├── .gitignore
@@ -57,10 +68,9 @@ react-projects/
 ```
 
 ### Adding a New Project
-- Create a new folder: mkdir project-name
+1. Create a new folder: mkdir project-name
 
-- Create package.json with:
-
+2. Create package.json with:
 ```bash
 {
   "name": "project-name",
@@ -73,7 +83,7 @@ react-projects/
 }
 ```
 
-- Create vite.config.js:
+3. Create vite.config.js:
 ```bahs
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -83,10 +93,9 @@ export default defineConfig({
 })
 ```
 
-- Create index.html and src/ folder with React files
+4. Create index.html and src/ folder with React files
 
-- Add script to root package.json:
-
+5. Add script to root package.json:
 ```bash
 "dev:project-name": "npm run dev -w project-name"
 Run: npm run dev:project-name
@@ -105,14 +114,19 @@ Run: npm run dev:project-name
 - Workspaces for multiple projects
 
 ### 🤝 Acknowledgments
+
 #### This project was developed as part of my learning journey through:
 - React/Redux Course by Prashant Sir
+
+- React
+- Bootstrap
+- Google Fonts
 
 ### 👤 Author
 - G Nihal
 
-- GitHub: @nihalmohammad705-debug
+- GitHub: https://github.com/nihalmohammad705-debug
 
 ### 📄 License
-- MIT License - see LICENSE file for details.
+- MIT License
 
