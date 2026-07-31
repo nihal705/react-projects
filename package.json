@@ -15,7 +15,11 @@
     "dev:todo-v2": "npm run dev -w todo-app-version-2",
     "build:todo-v2": "npm run build -w todo-app-version-2",
     "dev:bharat-clock": "npm run dev -w bharat-clock",
-    "build:bharat-clock": "npm run build -w bharat-clock"
+    "build:bharat-clock": "npm run build -w bharat-clock",
+    "dev:healthy-food-list": "npm run dev -w healthy-food-list",
+    "build:healthy-food-list": "npm run build -w healthy-food-list",
+    "dev:calculator-v2": "npm run dev -w calculator-version-2",
+    "build:calculator-v2": "npm run build -w calculator-version-2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.7.0",
