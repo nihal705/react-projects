@@ -19,7 +19,9 @@
     "dev:healthy-food-list": "npm run dev -w healthy-food-list",
     "build:healthy-food-list": "npm run build -w healthy-food-list",
     "dev:calculator-v2": "npm run dev -w calculator-version-2",
-    "build:calculator-v2": "npm run build -w calculator-version-2"
+    "build:calculator-v2": "npm run build -w calculator-version-2",
+    "dev:todo-v3": "npm run dev -w todo-app-version-3",
+    "build:todo-v3": "npm run build -w todo-app-version-3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.7.0",
