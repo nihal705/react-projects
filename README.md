@@ -14,6 +14,7 @@ A collection of React projects built while learning and practicing React concept
 | Todo App V1 | `todo-app-version-1` | `npm run dev:todo-v1` |
 | Todo App V2 | `todo-app-version-2` | `npm run dev:todo-v2` |
 | Bharat Clock | `bharat-clock` | `npm run dev:bharat-clock` |
+| Todo App V3 | `todo-app-version-3` | `npm run dev:todo-v3` |
 
 ---
 
@@ -24,12 +25,13 @@ A collection of React projects built while learning and practicing React concept
 git clone https://github.com/nihalmohammad705-debug/react-projects.git
 cd react-projects
 
-# Install dependencies (once for all projects)
+# Install dependencies (once for each project)
 npm install
 npm install @vitejs/plugin-react --save-dev
 npm install vite --save-dev
 npm install react react-dom
 npm i bootstrap@5.3.8 --install-latest-version
+npm install react-icons --save
 
 
 # Run any project
@@ -62,6 +64,7 @@ react-projects/
 ├── healthy-food-list/             # Healthy Food List 
 ├── todo-app-version-1/            # Todo app version-1
 ├── todo-app-version-2/            # Todo app version-2
+├── todo-app-version-3/            # Todo app version-3
 ├── package.json                   # Root: manages all projects
 ├── package-lock.json
 ├── .gitignore
