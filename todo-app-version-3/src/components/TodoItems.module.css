@@ -1,0 +1,37 @@
+.itemsContainer {
+  text-align: left;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style for each todo item row */
+.row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+.col6 {
+  text-align: left;
+  font-weight: 500;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 10px;
+}
+
+.col4 {
+  text-align: left;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+}
+
+.col2 {
+  text-align: center;
+  flex: 0 0 16.66%;
+  max-width: 16.66%;
+  padding: 0 10px;
+}
